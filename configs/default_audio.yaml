@@ -1,0 +1,10 @@
+--- configs/default_audio.yaml ---
+train_manifest: data/manifests/iemocap_audio_train.json
+val_manifest: data/manifests/iemocap_audio_val.json
+test_manifest: data/manifests/iemocap_audio_test.json
+n_mels: 64
+n_classes: 4
+batch_size: 32
+lr: 1e-4
+epochs: 50
+ckpt_dir: results/audio
