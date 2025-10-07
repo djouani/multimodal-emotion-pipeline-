@@ -1,0 +1,31 @@
+--- conda.yml ---
+name: multimodal-emotion
+channels:
+
+conda-forge
+defaults dependencies:
+python=3.9
+pip
+pip:
+torch>=1.12.0
+torchvision
+torchaudio
+transformers
+librosa
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+tensorboard
+wandb
+sentencepiece
+soundfile
+pytorch-lightning
+onnxruntime
+tqdm
+dlib
+face-alignment
+pyOpenSSL
