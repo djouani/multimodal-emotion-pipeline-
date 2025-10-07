@@ -1,0 +1,10 @@
+--- configs/default_video.yaml ---
+train_manifest: data/manifests/iemocap_video_train.json
+val_manifest: data/manifests/iemocap_video_val.json
+test_manifest: data/manifests/iemocap_video_test.json
+n_frames: 32
+n_classes: 4
+batch_size: 16
+lr: 1e-4
+epochs: 50
+ckpt_dir: results/video
