@@ -1,0 +1,5 @@
+--- configs/fusion.yaml ---
+posteriors_manifest: results/posteriors/iemocap_posteriors.json
+modality_keys: [audio, video, text]
+gating_ckpt: results/gating/best_gating.pth
+mode: gating
