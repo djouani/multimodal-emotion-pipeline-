@@ -1,0 +1,11 @@
+--- configs/default_text.yaml ---
+train_manifest: data/manifests/iemocap_text_train.json
+val_manifest: data/manifests/iemocap_text_val.json
+test_manifest: data/manifests/iemocap_text_test.json
+model_name: bert-base-uncased
+max_len: 128
+n_classes: 4
+batch_size: 16
+lr: 2e-5
+epochs: 6
+ckpt_dir: results/text
