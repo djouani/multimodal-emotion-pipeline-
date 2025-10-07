@@ -1,5 +1,6 @@
 # multimodal-emotion-pipeline-
 --- README.md ---
+
 Multimodal Emotion Recognition Pipeline
 
 This repository implements a modular pipeline for multimodal emotion recognition (audio, video, text) with decision-level fusion and uncertainty-aware gating. Primary dataset: IEMOCAP. Optional: MSP-IMPROV, CREMA-D, MELD.
